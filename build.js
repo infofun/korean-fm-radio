@@ -1,18 +1,25 @@
 const fs = require('fs');
 
-// 서버 차단을 막기 위해 일반 브라우저로 위장하는 헤더
+// 서버 차단을 막기 위해 일반 브라우저 및 KBS 홈페이지 위장 헤더
 const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Referer': 'https://onair.kbs.co.kr/',
+    'Origin': 'https://onair.kbs.co.kr',
+    'Accept': 'application/json, text/plain, */*'
 };
 
 // KBS 스트리밍 주소 추출 (JSON)
 async function getKBS(code) {
     try {
         const res = await fetch(`https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/${code}`, { headers });
+        
+        // 응답이 정상이 아닌 경우 에러 던지기
+        if (!res.ok) throw new Error(`HTTP Error ${res.status}`);
+        
         const data = await res.json();
         return data.channel.item[0].service_url;
     } catch (e) {
-        console.error(`KBS ${code} 파싱 실패 (서버 차단 등):`, e.message);
+        console.error(`KBS ${code} 파싱 실패:`, e.message);
         return "";
     }
 }
