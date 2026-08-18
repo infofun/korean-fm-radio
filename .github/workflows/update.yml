@@ -1,0 +1,30 @@
+name: Generate Radio M3U
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # 매 3시간마다 자동 실행 (UTC 기준)
+  workflow_dispatch: # GitHub 웹에서 수동으로 실행할 수 있는 버튼 활성화
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v3
+
+      - name: Node.js 18 환경 설정
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: M3U 파일 굽기
+        run: node build.js
+
+      - name: 변경된 M3U 파일 커밋 및 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add radio.m3u
+          # 파일 내용에 변경이 있을 때만 커밋 수행
+          git commit -m "Auto-update radio.m3u" || echo "No changes to commit"
+          git push
