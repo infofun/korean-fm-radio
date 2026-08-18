@@ -32,7 +32,9 @@ async function getMBC(code) {
 
 async function getSBS(code) {
     try {
-        const res = await fetch(`https://apis.sbs.co.kr/play-api/1.0/livestream/${code}pc/${code}fm?protocol=hls&ssl=Y`, { headers });
+        // 고릴라디오M(sbsdmb)은 끝에 'fm'이 붙지 않는 예외 처리
+        const channelSuffix = (code === 'sbsdmb') ? '' : 'fm';
+        const res = await fetch(`https://apis.sbs.co.kr/play-api/1.0/livestream/${code}pc/${code}${channelSuffix}?protocol=hls&ssl=Y`, { headers });
         return (await res.text()).trim();
     } catch (e) {
         return "";
@@ -52,7 +54,7 @@ async function generateM3U() {
 
     const mbcSfm = await getMBC('sfm'); 
     const mbcFm4u = await getMBC('mfm'); 
-    const mbcChm = await getMBC('chm'); // MBC 올댓뮤직
+    const mbcChm = await getMBC('chm'); 
 
     const sbsLove = await getSBS('love');   
     const sbsPower = await getSBS('power'); 
@@ -86,14 +88,13 @@ async function generateM3U() {
     if (kbs2) m3u += `#EXTINF:-1 group-title="지상파", KBS 2라디오 (해피FM) [106.1]\n${kbs2}\n\n`;
     if (sbsPower) m3u += `#EXTINF:-1 group-title="지상파", SBS 파워FM [107.7]\n${sbsPower}\n\n`;
 
-
     // ----- 주파수 없는 인터넷 전용 채널 -----
 
     if (mbcChm) m3u += `#EXTINF:-1 group-title="인터넷 전용", MBC 올댓뮤직\n${mbcChm}\n\n`;
     if (sbsDmb) m3u += `#EXTINF:-1 group-title="인터넷 전용", SBS 고릴라디오M\n${sbsDmb}\n\n`;
 
     fs.writeFileSync('radio.m3u', m3u);
-    console.log("M3U 파일 생성 완료 (국내 전용)");
+    console.log("M3U 파일 생성 완료 (고릴라디오M 픽스)");
 }
 
 generateM3U();
