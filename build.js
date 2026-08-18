@@ -114,7 +114,7 @@ async function generateM3U() {
 
     // ----- 인터넷 전용 채널 -----
     if (mbcChm) m3u += `#EXTINF:-1 tvg-logo="${logos.mbcChm}" group-title="인터넷 전용", MBC 올댓뮤직\n${mbcChm}\n\n`;
-    if (sbsDmb) m3u += `#EXTINF:-1 tvg-logo="${logos.sbsDmb}" group-title="인터넷 전용", SBS 고릴라디오M\n${sbsDmb}\n\n`;
+    if (sbsDmb) m3u += `#EXTINF:-1 tvg-logo="${logos.sbsDmb}" group-title="인터넷 전용", SBS 고릴라M\n${sbsDmb}\n\n`;
 
     fs.writeFileSync('radio.m3u', m3u);
     console.log("M3U 파일 생성 완료 (썸네일 주파수명 매핑 완료)");
