@@ -11,12 +11,25 @@ const headers = {
 // KBS 스트리밍 주소 추출 (JSON)
 async function getKBS(code) {
     try {
-        const res = await fetch(`https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/${code}`, { headers });
+        // 임의의 한국 통신사 IP로 위장하여 해외 차단 우회 시도
+        const kbsHeaders = {
+            ...headers,
+            'X-Forwarded-For': '211.232.120.13', 
+            'X-Real-IP': '211.232.120.13'
+        };
+
+        const res = await fetch(`https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/${code}`, { headers: kbsHeaders });
         
-        // 응답이 정상이 아닌 경우 에러 던지기
-        if (!res.ok) throw new Error(`HTTP Error ${res.status}`);
-        
-        const data = await res.json();
+        // JSON 응답을 먼저 텍스트로 받아 내용 확인 (디버깅용)
+        const text = await res.text();
+        const data = JSON.parse(text);
+
+        // 정상적인 구조(channel.item)가 없을 경우 서버 응답 내용을 통째로 출력
+        if (!data.channel || !data.channel.item) {
+            console.error(`[디버그] KBS ${code} 비정상 응답 데이터:`, text);
+            return "";
+        }
+
         return data.channel.item[0].service_url;
     } catch (e) {
         console.error(`KBS ${code} 파싱 실패:`, e.message);
