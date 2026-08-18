@@ -7,7 +7,6 @@ const headers = {
     'Accept': 'application/json, text/plain, */*'
 };
 
-// KBS 스트리밍 주소 추출
 async function getKBS(code) {
     try {
         const kbsHeaders = { ...headers, 'X-Forwarded-For': '211.232.120.13', 'X-Real-IP': '211.232.120.13' };
@@ -22,7 +21,6 @@ async function getKBS(code) {
     }
 }
 
-// MBC 스트리밍 주소 추출
 async function getMBC(code) {
     try {
         const res = await fetch(`https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=${code}`, { headers });
@@ -32,7 +30,6 @@ async function getMBC(code) {
     }
 }
 
-// SBS 스트리밍 주소 추출
 async function getSBS(code) {
     try {
         const res = await fetch(`https://apis.sbs.co.kr/play-api/1.0/livestream/${code}pc/${code}fm?protocol=hls&ssl=Y`, { headers });
@@ -44,7 +41,7 @@ async function getSBS(code) {
 
 async function generateM3U() {
     let m3u = "#EXTM3U\n\n";
-    console.log("스트리밍 주소 파싱 시작 (주파수 정렬)...");
+    console.log("스트리밍 주소 파싱 시작 (주파수 정렬, 국내 전용)...");
 
     // 동적 주소 파싱
     const kbs1 = await getKBS('21');   
@@ -55,10 +52,11 @@ async function generateM3U() {
 
     const mbcSfm = await getMBC('sfm'); 
     const mbcFm4u = await getMBC('mfm'); 
-    const mbcChm = await getMBC('chm'); 
+    const mbcChm = await getMBC('chm'); // MBC 올댓뮤직
 
     const sbsLove = await getSBS('love');   
     const sbsPower = await getSBS('power'); 
+    const sbsDmb = await getSBS('sbsdmb'); // SBS 고릴라디오M
 
     // ----- 수도권 FM 주파수 오름차순 정렬 -----
     
@@ -89,14 +87,13 @@ async function generateM3U() {
     if (sbsPower) m3u += `#EXTINF:-1 group-title="지상파", SBS 파워FM [107.7]\n${sbsPower}\n\n`;
 
 
-    // ----- 주파수 없는 인터넷 전용 채널 (24시간 음악) -----
+    // ----- 주파수 없는 인터넷 전용 채널 -----
 
     if (mbcChm) m3u += `#EXTINF:-1 group-title="인터넷 전용", MBC 올댓뮤직\n${mbcChm}\n\n`;
-    m3u += `#EXTINF:-1 group-title="인터넷 전용", 24시간 K-POP 채널\nhttp://t1.inlive.co.kr:8000/\n\n`;
-    m3u += `#EXTINF:-1 group-title="인터넷 전용", 24시간 클래식 채널\nhttp://t4.inlive.co.kr:8000/\n\n`;
+    if (sbsDmb) m3u += `#EXTINF:-1 group-title="인터넷 전용", SBS 고릴라디오M\n${sbsDmb}\n\n`;
 
     fs.writeFileSync('radio.m3u', m3u);
-    console.log("M3U 파일 주파수 정렬 생성 완료 (모든 채널 포함)");
+    console.log("M3U 파일 생성 완료 (국내 전용)");
 }
 
 generateM3U();
