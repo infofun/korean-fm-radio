@@ -1,59 +1,59 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="지상파", KBS 2FM (쿨FM) [89.1]
-https://2fm-ad.gscdn.kbs.co.kr/2fm_ad_192_1.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8yZm0tYWQuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMjkzMjN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=NhTTIoU4N2GCoMrg0K8h~mI32-6wkJ3qSBHKS4M8sGBNB8nRF4KIAlWr0HEYXajj-OkplkbPTkdMgovEajRZ6quTB46rFBqYBdzIcJzDktVADIW4y7J0ZW0cCPzN6~DFCSHHaq8YmjNEfDGr~JBXBoO6WegyuiPo2iTI62StAXhZdL2J~z5GeccXmTxCz5wSvbJ01HnFUAH8~NMmZB1XnxBf~LGvThJabsUFu2qM2qlXWWeDco2GEsDliNzX5OI1IPaEMllyBBlWsLfA9EDB2y~EirkZ9SuzrCD5EdSJeRU36ywA9NmGJ3H-Dfk7Z0hwCBarzl~k2iMY4-a0Rco4pg__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/89.1.png" group-title="지상파", KBS 2FM (쿨FM) [89.1]
+https://2fm-ad.gscdn.kbs.co.kr/2fm_ad_192_1.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8yZm0tYWQuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMzczOTN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=CAHLx~OU6GhT7YnF273zvAHO7nFdHShimZXTPEUpsO4DGkCCIMf1SHr7QPR2MbcuT2V1zjmJE2lV8TciU4gYjnEZ2Bbklwl2daxT~ulRdhkosdbGoAxevARhfALXHNNTh2gIdw1CHCBQ5Alu8OTTWMd2Q6p2HFPjCQHD9NAB-FIFL2Y5EFyf8DYbu10J3SaITPI7qe4AWPVDJo1h-Niui57Ng1bFJho-l-39dgV74zkffOfiv6hN3g2YrhOfiWIjmu50PjKEO54vmUNU6MY9jnJK7iClo8OG8D9h~1ezEB9loJU-6bzRcdT91pqA1qn85LwdHaeSrh7V8F6yO1DIJw__
 
-#EXTINF:-1 group-title="지상파", MBC FM4U [91.9]
-https://minimw.imbc.com/dmfm/_definst_/mfm.stream/playlist.m3u8?_lsu_sa_=61917D1663453344614FF57E3D519640859736E59C0372833C90C0aC460F31C669a6A3103232A342803F3A410Fb50185B5D96324347AD443209DB740C8FA59ED114B911C41FAD347955FF484A767C4C06B8B3D3E45E326A6FF84932B7FF553E4EDFFB8FD2DF25EFDF24C81A337C9D506
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/91.9.png" group-title="지상파", MBC FM4U [91.9]
+https://minimw.imbc.com/dmfm/_definst_/mfm.stream/playlist.m3u8?_lsu_sa_=6BA1B21503BF3B045441557B3331A841A51938F5440E328030C08AaA46F73826F1aE838931325D4F409135C1C4b6A1AD76983A9CA5C8591FEBB5B0FA72FA5F412867C6E895E22634E394A92330ED153B34442B50CBAAE89349E29CF3C01AA2AE617FBEAF4DBB9358F7FE7649AD5837F0
 
-#EXTINF:-1 group-title="지상파", KBS 1FM (클래식FM) [93.1]
-https://1fm.gscdn.kbs.co.kr/1fm_192_2.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xZm0uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMjkzNTZ9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=Xhc4C0vKRuW4~XMoBVWYyVuqW8IwXNIdnNKJXJ~1FhqwIRC69Gzpcl53SIUq-thIyrWbX0DxYxHgSoUeb47GJwG5AEJxpjirJPgH1dYPor~hyv0f5NrQiYgnzLNNfTBfg8Z98-mCjTQF7-ZDyPUhpdj8Q-PF9JE6YkUEFAviAtVgdeMlOAjQK4JZKYoJXzWBibnI16wXFqnlezPGIw1ci9vRvfcm24nGOuxL-WvWHDYL5i7fI1qmBcw4WhmdR9LrsSe4V6AJHYb140J3pTGWz5qnBtvi2OF~cBC4lSx8EMSDXm2XWYUu6S7ImjFEzTLpCIP3iVpxNYL6Gpu-aUXnmA__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/93.1.png" group-title="지상파", KBS 1FM (클래식FM) [93.1]
+https://1fm.gscdn.kbs.co.kr/1fm_192_2.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xZm0uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMzc0MDJ9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=Rx-YWEkV8htaucEC~1ZDQPuhM-~DCRjaYsv6B40d9ykEuJg2GoeKuar2gCZ1DhJp7zo4HTOdvK8SrEU6TYHmwR9UsimnbbbrHwfcdjN19aZCLOqK5kb2Ei-ADR8-tBF2Ku2RRgKPfG~IOF2TAOkZ~Y0QzGaaYcn6ieG~2iQEAHUhI8rXjrF8KZ~mL1-H7i-djiF6DcULW4MwZ0F5cdYlviDendMhXJ0R-gvtB5s0A2sdgdrTDYUfflz8NFJXRCi2OrtVvEQQCxfqggbXDJfvw8npQffH4MIrJcIg8oQjiN5d4pB4oXNBml92xNIFSodOOUcgpsZ~e7unJWqziyI2qQ__
 
-#EXTINF:-1 group-title="뉴스/교양", YTN 라디오 [94.5]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/94.5.png" group-title="뉴스/교양", YTN 라디오 [94.5]
 https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8
 
-#EXTINF:-1 group-title="뉴스/교양", TBS FM [95.1]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/95.1.png" group-title="뉴스/교양", TBS FM [95.1]
 https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="지상파", MBC 표준FM [95.9]
-https://minisw.imbc.com/dsfm/_definst_/sfm.stream/playlist.m3u8?_lsu_sa_=63D1111483F133645B4805DA34B1BF46353B3DE51108526036E093a4E61B3006E4aA43993BC28449F02E307125b5E174A1CA7911BAA4FCB0E148AC5C0A0F881AC209E8148A0692D8E68F74A9E6D9F420ADCA275BFA92640BD894AB5F4BC60B3F8C4CB63F8EEC8180EE67B24F02E64EDA
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/95.9.png" group-title="지상파", MBC 표준FM [95.9]
+https://minisw.imbc.com/dsfm/_definst_/sfm.stream/playlist.m3u8?_lsu_sa_=6B61F31783EE3C94444E65103DD14140659D3455C40A0253346080aA462E3376C2a7235832E2D44F10C33B41CAb3C13B69DD9EEA83F4E788CC5F274C4F7D6F62F9AFF8B217612191DD509FDF3FA8B30BA76EE1F3DB92D0F03C3134C45F6EBFAD470A58B0DF657485755E4D1BE90434FE
 
-#EXTINF:-1 group-title="공공", 국방FM [96.7]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/96.7.png" group-title="공공", 국방FM [96.7]
 https://mediaworks.dema.mil.kr/live_edge/audio.sdp/playlist.m3u8
 
-#EXTINF:-1 group-title="지상파", KBS 1라디오 [97.3]
-https://1radio.gscdn.kbs.co.kr/1radio_192_4.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xcmFkaW8uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMjkzNjd9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=ktpsbJEMgX8Sgwj1qPCdyPfDGNQGw~cl1YmeV1wv40Bv6P1JjiqbPE~fW~mcokicMkyZLMMN-lHybaNCYB7MYpddMbSz-SkbapZlGD7YgMHT6hkyccDI2FHEud8wK74QAP3LHp0qPj2Enu55VJDTAe-qb6vOG1~qxCVSqExYbNj9lnBPbLeNHUXErjvFn0-7reeYVcXtPcRlO7BFhtQ1vtGne~LGhCgYjphTrPjPSB3sHEWsiNhRq1qucra6PhLtQIFpnKiqzTJdtArYnTMWZgx7cPjGYFTKWi0nbZz-I8oBIP4OxRsPib8Qf3csCV9iy-Ud8B~hdMhR26vz0lAEOw__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/97.3.png" group-title="지상파", KBS 1라디오 [97.3]
+https://1radio.gscdn.kbs.co.kr/1radio_192_4.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xcmFkaW8uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMzczOTN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=BgwZD5K9En8Hg1~JGa~GJQRtxb288DkG~xYSKka0IlNIqdQalqyH~aSUg6fh9X1eRpNLkMsEgPMWknITatjJmoQxLXFGQZZZ0jH0x57stsUjReumKHnK6xvnkBs9wFEe6hlaxDEXA38dge92n27zPRE6WT4CNkETUQEKXpn4qpVnmCPr0cBtkzCnFkrMXVIrX1CRnaZ01iJmYQif~fq5ZZeFDGqckAvg76C2hVNHUidM1nwpTA5mr5shNEAwpkgfLEcRqr-O4rjMy~mOHHyXnryAQcHIj4QZUe0lKBj7BCKYK8c1lGUShTA8hEkxLjO1m37TJDEGGjLDRnkVILa5HA__
 
-#EXTINF:-1 group-title="음악", 국악방송 [99.1]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/99.1.png" group-title="음악", 국악방송 [99.1]
 https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="뉴스/교양", OBS 라디오 [99.9]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/99.9.png" group-title="뉴스/교양", OBS 라디오 [99.9]
 https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="뉴스/교양", TBN 경인교통방송 [100.5]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/100.5.png" group-title="뉴스/교양", TBN 경인교통방송 [100.5]
 http://radio2.tbn.or.kr:1935/gyeongin/myStream/playlist.m3u8
 
-#EXTINF:-1 group-title="뉴스/교양", TBS eFM (영어방송) [101.3]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/101.3.png" group-title="뉴스/교양", TBS eFM (영어방송) [101.3]
 https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="지상파", SBS 러브FM [103.5]
-https://radiolive.sbs.co.kr/lovepc/lovefm.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcwOTk4MTEsInBhdGgiOiIvbG92ZWZtLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiYzVjMTFiZTQtMDAyMi00MjVlLWIzMmMtNmJkMWEyNTk3MTU5IiwiaWF0IjoxNzg3MDU2NjExfQ.LfNlk3ss5vguXqvtEIhYzFgOofzNFM476D2yXTcQ6Fw
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/103.5.png" group-title="지상파", SBS 러브FM [103.5]
+https://radiolive.sbs.co.kr/lovepc/lovefm.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcxMDc4NTAsInBhdGgiOiIvbG92ZWZtLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiZWMxODVmYzItYWU2OC00MmYxLWEyYTctYWZkMGVmYWRkN2Q4IiwiaWF0IjoxNzg3MDY0NjUwfQ.1POZZuwSKgIjkVbd3ZAk18mG6gfyqkIjY_5KgkDNuwk
 
-#EXTINF:-1 group-title="교육", EBS FM [104.5]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/104.5.png" group-title="교육", EBS FM [104.5]
 https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8
 
-#EXTINF:-1 group-title="지상파", KBS 3라디오 [104.9]
-https://3radio.gscdn.kbs.co.kr/3radio_192_3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8zcmFkaW8uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMjkzODV9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=KhvCDkeACQq55E1wXOFbPVuw9h8MLhFPdMMS-B1uX7FYKimI3r2qa6ErK2YoMonTng-nH6u~iAgOAZ1Aacx0gTHORcLGC05TBpi~Qad0k0M7RnUGALzc~aqZocTLtksY2nomKAtGaDbZUNil1kjgZwnbaxo7-yMwoZf-1iFXAMt79zHUL-oUP8BCxbDvlQnPzO1cnwYFQIg69eQqtoE9JaRkHpwppQzJUKiRsAdAWuXNll78fXA9cWIYWM-vDlVeKKljRctrOyWpKzoeknEjJ~q9ejFpLMbbM~hCseSTsaeVMyf-JX1~7FupjEVuTQjsrSORLZ7EW38GSCoNGSdJbA__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/104.9.png" group-title="지상파", KBS 3라디오 [104.9]
+https://3radio.gscdn.kbs.co.kr/3radio_192_3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8zcmFkaW8uZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMzczOTN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=S35cDeBWeyf7~evFCN7tNCdoKPLRu8v4Hxnvdok4rX-X-pFi8TsqJwvGL3Mcy7PvA6FZp5r8KroZ6g3k8J6ZYQfylMXIWhqv6WrPGWXsTlCUPK77PDrMnzd3OjNUp6tdGO7rcw7-FEsLQM27rhaD3Owss058wIjwuzMMyw7ug8IqW0RZ0zxCZyzzi17GKwmsVUxfMl1ZlhF06FcC705AVeu3O3~YbuduK8YP1f6rVYqbWYQGmvMD0T8OXfEbmx5Hzanm68SxqhM6iLZq-totfps8I~vkJeab5OyNrAal3Sfpizw2Fj0Jkpup-n649XUtkYosEF5njDkrCKfRqcEC-w__
 
-#EXTINF:-1 group-title="지상파", KBS 2라디오 (해피FM) [106.1]
-https://2radio-ad.gscdn.kbs.co.kr/2radio_ad_192_1.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8ycmFkaW8tYWQuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMjkzNzh9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=ntDLKXFnkqdCi6ZI8IPE-Ar9pWBVmMwO8IJjMoWxs9DtOBAxV1T6IT4v8RHFtCVYZFWP3we-9uaP09y3HGSW~fnEFO373BHa5uBeCvPojJzpX7PLL1xFjP9EPsM5wcTHwkUUSMw35dhcmMC54qQmTaKWzy~Vh1IV35RALfwgh2m2Q5d6GqvbeZjJeRPqMQyDEbc~urvihmd8hRtkmLBinoRCjet43ROqvwqdiYluS6vyNoEoZ-EnZI8QRk0VmUHZXsV7QlZZeSGF8q-LtRmp-B7ux1MuBhs-6p0tSQW2y7haJI65TJ4l1nlISWCbHbukOHV~uP48JYGCSXvJRje~gA__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/106.1.png" group-title="지상파", KBS 2라디오 (해피FM) [106.1]
+https://2radio-ad.gscdn.kbs.co.kr/2radio_ad_192_1.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8ycmFkaW8tYWQuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcyMzczMzN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=EJuOdhhGyy15PFhFIoUfUlY0K21pCwka8WwWc87lqen4ZAYihtw-YCKDZNvyqd9fYIr89Vf8b-fLqwo86NuF8YGJ8Uo-cLy8yXR3OFvi08kYdBGq4G1i3dBsOTrRpG7~AJ9PqoIvNV~4LaTHSJidfC64VXcfSzPPYwv4O2goqTArMBMmZYEeZh09u4XLAkN3RISMoX8C6zHH79CHo8fThlLZVOoS31psMwoH74OKw9pY2PVwvVIEVuPgTuJJzcjTJhWljCj8ek9nh-g1K2HFFCs22izUma7P9n~t1Ef3xBhrSPXDzjFYkUakqojZEco4vesftN5l7-3na-FLe~SoTg__
 
-#EXTINF:-1 group-title="지상파", SBS 파워FM [107.7]
-https://radiolive.sbs.co.kr/powerpc/powerfm.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcwOTk4MTEsInBhdGgiOiIvcG93ZXJmbS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImJhNDUyODdjLTJhZGEtNDdmOS05NzZhLTYxMmU3ZDM2NzUzMiIsImlhdCI6MTc4NzA1NjYxMX0.wMoMqB96SN6ZYmnCT95FFDFRklylgol46Rth0S_8Yh0
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/107.7.png" group-title="지상파", SBS 파워FM [107.7]
+https://radiolive.sbs.co.kr/powerpc/powerfm.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcxMDc4NTAsInBhdGgiOiIvcG93ZXJmbS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6Ijc2ZjFhYzZhLTFkNTYtNDlhOC1hY2E5LWY5Y2I0ZTc4ZjU2YiIsImlhdCI6MTc4NzA2NDY1MH0.yxkOpDdbsS5kp-Ajp1mw2FRS0PNwgZnykE6f2k6FWe0
 
-#EXTINF:-1 group-title="인터넷 전용", MBC 올댓뮤직
-https://minicw.imbc.com/dchm/_definst_/chm.stream/playlist.m3u8?_lsu_sa_=6291D015D32A39849649C54F3A01CF4D05E630351701724E32A043aE968E3EE68Aa653403832DA4A10883531A4b821E05E50613BE2B718149E35059DC9C34BFB2B9C8C39A2CB073266043C8AAB1ADEA75FE114EF8CE30F298DE829AC6072ABBC2A0D7DDB2813A5E5C5AB820F8459CE4C
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/mbc_all_that_music.png" group-title="인터넷 전용", MBC 올댓뮤직
+https://minicw.imbc.com/dchm/_definst_/chm.stream/playlist.m3u8?_lsu_sa_=6721041A13CF3124D84E85A835B1C84FE55939E5A50EF2AB33D04Da4964438D695a9433236E20D41209138610Bb831B6FC577EF780F947ACF44F821F44905EF7B6E6B7CDE19BA043A4184C6EFC5F0276E66C27E9BDF7F74C19C663D2D866D3567C94453187932CA21D4681476FB27BBD
 
-#EXTINF:-1 group-title="인터넷 전용", SBS 고릴라디오M
-https://radiolive.sbs.co.kr/sbsdmbpc/sbsdmb.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcwOTk4MTEsInBhdGgiOiIvc2JzZG1iLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiNzI5ZTUzNGEtNWNkYi00NmQ5LTk4N2UtZGYxYmEyZjhiNmY4IiwiaWF0IjoxNzg3MDU2NjExfQ.P4936cZklHSQp8hrpom9HqkTwmpSuB0JkPu6uUxTn48
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/infofun/korean-fm-radio/main/logos/sbs_gorealra_m.png" group-title="인터넷 전용", SBS 고릴라디오M
+https://radiolive.sbs.co.kr/sbsdmbpc/sbsdmb.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODcxMDc4NTAsInBhdGgiOiIvc2JzZG1iLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiY2IwN2FhMDItYzdiMC00YWFjLTg1Y2ItZjMxNWJiOWY5YWYxIiwiaWF0IjoxNzg3MDY0NjUwfQ.g-oAvRrC0jNESkBz5aYKl_b9En3MkZdS5LcAW0XQ124
 
